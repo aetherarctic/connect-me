@@ -12,7 +12,7 @@
 }
 body {
    background-color: #474972;
-   background-image: url(/image/bgimg.jpeg);
+   background-image: url(image/bgimg.jpeg);
    background-size: cover;
    background-position: calc(50% - 20px) calc(20% - 50px);
 }
