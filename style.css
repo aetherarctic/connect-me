@@ -1,0 +1,101 @@
+@font-face {
+   font-family: "Exo";
+   src: url(/Exo/Exo-VariableFont_wght.ttf);
+   font-weight: 300;
+}
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Exo", sans-serif;
+   color: #d5dff2;
+}
+body {
+   background-color: #474972;
+   background-image: url(/image/bgimg.jpeg);
+   background-size: cover;
+   background-position: calc(50% - 20px) calc(20% - 50px);
+}
+
+.container{
+   width: 40%;
+   height: 98%;
+   margin: 0 auto;
+   padding: 30px 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   border-radius: 6px;
+}
+.container::before{
+   content: "";
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   background: rgba(255, 255, 255, 0.1);
+   backdrop-filter: blur(25px);
+   border: 0.4px solid #d5dff2;
+   border-radius: 6px;
+}
+.profile-section, .links-section{
+   position: relative;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   z-index: 2;
+}
+
+.avatar-section img{
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   object-fit: cover;
+   border: 2px solid #272839;
+}
+.namesec h1{
+   letter-spacing: 2px;
+}
+.biosec{
+   width: 75%;
+   min-width:310px;
+   text-align: center;
+}
+.bio {
+   font-size: 0.9em  ;
+}
+
+.links-section {
+   margin-top: 30px;
+   gap: 10px;
+}
+.links-section .link {
+   width: 80%;
+   min-width: 400px;
+   padding: 4px;
+   border-radius: 50px;
+   background-color: rgba(18, 18, 18, 0.6);
+}
+.link a {
+   text-decoration: none;
+   color: #d5dff2;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 10px;
+}
+.link a:visited {
+   color: #d5dff2;
+}
+.link img {
+   width: 40px;
+   height: 40px;
+   object-fit: cover;
+   border-radius: 50%;
+   border: 1.5px solid #474972;
+   background-color: rgb(8, 10, 19);
+}
