@@ -3,13 +3,15 @@
    src: url(Exo/Exo-VariableFont_wght.ttf);
    font-weight: 300;
 }
-*{
+
+* {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
    font-family: "Exo", sans-serif;
    color: #d5dff2;
 }
+
 body {
    background-color: #474972;
    background-image: url(image/bgimg.jpeg);
@@ -17,7 +19,7 @@ body {
    background-position: calc(50% - 20px) calc(20% - 50px);
 }
 
-.container{
+.container {
    width: 35%;
    height: fit-content;
    padding: 30px 0;
@@ -28,7 +30,8 @@ body {
    transform: translate(-50%, -50%);
    border-radius: 6px;
 }
-.container::before{
+
+.container::before {
    content: "";
    position: absolute;
    width: 100%;
@@ -40,7 +43,9 @@ body {
    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.959);
    border-radius: 6px;
 }
-.profile-section, .links-section{
+
+.profile-section,
+.links-section {
    position: relative;
    width: 100%;
    display: flex;
@@ -51,23 +56,26 @@ body {
 }
 
 /* .profile section */
-.avatar-section img{
+.avatar-section img {
    width: 100px;
    height: 100px;
    border-radius: 50%;
    object-fit: cover;
    border: 2px solid #272839;
 }
-.namesec h1{
+
+.namesec h1 {
    letter-spacing: 2px;
 }
-.biosec{
+
+.biosec {
    width: 75%;
    min-width: 310px;
    text-align: center;
 }
+
 .bio {
-   font-size: 0.9em  ;
+   font-size: 0.9em;
 }
 
 /* link section */
@@ -75,13 +83,16 @@ body {
    margin-top: 30px;
    gap: 10px;
 }
+
 .links-section .link {
    width: 80%;
    min-width: 300px;
    padding: 4px;
    border-radius: 50px;
+   color: #d5dff2;
    background-color: rgba(18, 18, 18, 0.6);
 }
+
 .link a {
    text-decoration: none;
    color: #d5dff2;
@@ -90,9 +101,11 @@ body {
    align-items: center;
    gap: 10px;
 }
+
 .link a:visited {
    color: #d5dff2;
 }
+
 .link img {
    width: 40px;
    height: 40px;
