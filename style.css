@@ -37,7 +37,8 @@ body {
    left: 0;
    background: rgba(255, 255, 255, 0.1);
    backdrop-filter: blur(25px);
-   border: 0.4px solid #d5dff2;
+   /* border: 0.4px solid #d5dff2; */
+   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.959);
    border-radius: 6px;
 }
 .profile-section, .links-section{
