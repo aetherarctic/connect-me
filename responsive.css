@@ -1,0 +1,22 @@
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+
+   /* Styles for devices between phones and tablets */
+   .container {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+      margin: 0px;
+      width: 100%;
+      border-radius: 0;
+   }
+
+   .container::before {
+      border-radius: 0;
+   }
+
+   .links-section .link {
+      width: 90%;
+   }
+
+}
